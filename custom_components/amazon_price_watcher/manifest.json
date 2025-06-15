@@ -2,9 +2,9 @@
     "domain": "amazon_price_watcher",
     "name": "Amazon Price Watcher",
     "version": "0.1.0",
-    "documentation": "https://github.com/YOUR_GITHUB_USERNAME/amazon-price-watcher-ha",
+    "documentation": "https://github.com/mathyoub/amazon-price-watcher-ha",
     "requirements": [],
     "dependencies": [],
-    "codeowners": ["@YOUR_GITHUB_USERNAME"],
+    "codeowners": ["@mathyoub"],
     "iot_class": "local_polling"
   }
