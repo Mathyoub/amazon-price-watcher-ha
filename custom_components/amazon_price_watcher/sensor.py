@@ -2,7 +2,7 @@ from homeassistant.helpers.entity import Entity
 from homeassistant.const import CURRENCY_DOLLAR
 from .const import DOMAIN
 
-async def async_setup_platform(hass, config, async_add_entities, discovery_info=None):
+async def async_setup_entry(hass, entry, async_add_entities):
     api = hass.data[DOMAIN]
     products = await api.get_products()
     sensors = []
