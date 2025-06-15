@@ -1,6 +1,6 @@
 {
     "name": "Amazon Price Watcher",
-    "content_in_root": false,
+    "content_in_root": true,
     "domains": ["sensor"],
     "country": "us",
     "homeassistant": "2024.3.0"
