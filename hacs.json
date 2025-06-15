@@ -1,0 +1,7 @@
+{
+    "name": "Amazon Price Watcher",
+    "content_in_root": false,
+    "domains": ["sensor"],
+    "country": "us",
+    "homeassistant": "2022.0.0"
+  }

@@ -1,0 +1,13 @@
+add_product:
+  description: "Add a new Amazon product to track"
+  fields:
+    url:
+      description: "Amazon product URL"
+      example: "https://www.amazon.com/dp/B08N5WRWNW"
+
+remove_product:
+  description: "Remove a tracked product"
+  fields:
+    product_id:
+      description: "Product ID"
+      example: 1
