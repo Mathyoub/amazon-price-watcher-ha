@@ -44,6 +44,14 @@ class AmazonPriceSensor(Entity):
     def extra_state_attributes(self):
         return self._attrs
 
+    @property
+    def state_class(self):
+        return "measurement"
+
+    @property
+    def device_class(self):
+        return "monetary"
+
     async def async_update(self):
         # Refresh product info
         products = await self._api.get_products()
